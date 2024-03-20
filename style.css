@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.header-background {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+}
+
+.header-container {
+
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 18px 20px 18px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    color: white;
+    font-family: "Koulen", sans-serif;
+    font-size: 35px;
+}
+
+.logo-img {
+    width: 80px;
+    height: 80px;
+}
+
+.header-items {
+    display: flex;
+    column-gap: 60px;
+    row-gap: 20px;
+
+    @media (max-width: 800px) {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+.header-item {
+    color: white;
+    font-family: "Koulen", sans-serif;
+    font-size: 24px;
+}
+
+.fundo-hero {
+    display: flex;
+    background-color: black;
+    background-image: url(./img/Satoru\ gojo\ fundo.png);
+    background-size: cover;
+    justify-content: center;
+}
+
+.hero-container {
+    display: flex;
+    padding: 60px 20px 60px 20px;
+    justify-content: space-between;
+    width: 1200px;
+    gap: 18px;
+
+    @media (max-width:800px) {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+.texto-hero {
+    max-width: 444px;
+
+    @media (max-width:800px) {
+        max-width: 800px;
+    }
+}
+
+.section-texto {
+    font-size: 18px;
+    color: white;
+}
+
+.titulo-texto {
+    margin-bottom: 18px;
+    color: white;
+    font-size: 40px;
+}
+
+.img-gege {
+    max-width: 400px;
+    max-height: 390px;
+    width: 100%;
+}
+
+/* PARTE MAIN */
+
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 60px 20px 60px 20px;
+    flex-wrap: wrap;
+
+    @media (max-width:800px) {}
+}
+
+.main-inv {
+    width: 1200px;
+
+    @media (max-width:800px) {
+        flex-direction: column;
+    }
+}
+
+.Sinopse {
+    font-size: 40px;
+    color: white;
+    padding-bottom: 18px;
+}
+
+.texto-main {
+    color: white;
+    font-size: 18px;
+    padding: 18px 0 18px 0;
+}
+
+/* >>>>>>>>>PARTE ASIDE <<<<<<<<<<<<*/
+
+.aside-chefe {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 60px 20px;
+}
+
+.aside-container {
+    max-width: 1200px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    column-gap: 120px;
+    flex-wrap: wrap;
+}
+
+.paragrafo-aside {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    font-size: 40px;
+    color: white;
+}
+
+.textos-aside {
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin: 18px 0 18px 0;
+}
+
+/* >>>>>>>>>>>>>>>>>ARTICLE<<<<<<<<<<<< */
+.article-chefe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 60px 20px;
+
+}
+
+.article-paragrafo {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+.container-article {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.texto-apelido {
+    padding: 18px 0 18px 0;
+    font-size: 20px;
+    font-family: "Inter", sans-serif
+}
+
+.inputs-aside {
+    border-radius: 5px;
+    width: 300px;
+    height: 47px;
+    padding-left: 10px;
+}
+
+.input-aside2 {
+    border-radius: 5px;
+    width: 100%;
+    height: 142px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.input-aside3 {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.container-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 18px;
+    max-width: 1200px;
+    width: 100%;
+
+}
+
+.button-class {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 214px;
+    height: 47px;
+
+    &:hover {
+        background-color: red;
+    }
+
+}
+
+.enviar {
+    color: white;
+}
+
+.button-fixed {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: 484848;
+    width: 100px;
+    height: 100px;
+
+}
+
+.footer-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 86px;
+}
+
+.footer-final {
+    color: white;
+    font-family: "Koulen", sans-serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}

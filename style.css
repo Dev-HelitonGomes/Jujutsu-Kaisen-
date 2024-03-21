@@ -10,7 +10,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    background-color: black;
+    background-color: blueviolet;
 }
 
 .header-container {
@@ -108,7 +108,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: blueviolet;
     padding: 60px 20px 60px 20px;
     flex-wrap: wrap;
 
@@ -138,7 +138,7 @@
 /* >>>>>>>>>PARTE ASIDE <<<<<<<<<<<<*/
 
 .aside-chefe {
-    background-color: black;
+    background-color:black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -266,7 +266,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color:blueviolet;
     height: 86px;
 }
 

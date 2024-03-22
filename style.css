@@ -10,7 +10,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    background-color: blueviolet;
+    background-color: black;
 }
 
 .header-container {
@@ -108,7 +108,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blueviolet;
+    background-color: black;
     padding: 60px 20px 60px 20px;
     flex-wrap: wrap;
 
@@ -266,7 +266,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:blueviolet;
+    background-color:black;
     height: 86px;
 }
 

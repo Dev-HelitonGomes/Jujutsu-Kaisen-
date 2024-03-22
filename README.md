@@ -2,3 +2,4 @@
 width="100%">
 
 Abaixo uma foto demonstrativa do Início do Site Jujutsu Kaisen. Informações simples para novos leitores do mangá ou publico que acompanha o anime.
+O Mangá ja se encontra na sua etapa final, no decorrer do ano, talvez chegará ao fim.
